@@ -1,0 +1,8 @@
+sudo docker build -t rahulkumarroy477/nodejs-codesync .
+
+ncc for compiling nodejs file in single bundle
+
+npm i -g @zeit/ncc 
+
+docker build -t nodejs-alpine .
+docker run -d -p 3002:3000 nodejs-alpine
